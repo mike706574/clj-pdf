@@ -1,7 +1,8 @@
 (ns clj-pdf.test.utils
   (:use clj-pdf.core)
   (:require [clojure.string :as str]
-            [clojure.java.io :as io]))
+            [clojure.java.io :as io]
+            [clojure.test :refer [is run-tests]]))
 
 (defn add-test-path-prefix [filename]
   (str "test" java.io.File/separator filename))

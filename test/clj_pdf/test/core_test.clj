@@ -1,4 +1,4 @@
-(ns clj-pdf.test.core
+(ns clj-pdf.test.core-test
   (:use clj-pdf.core clj-pdf.test.utils clojure.test clojure.java.io)
   (:require [clj-pdf.utils :as utils]
             [clojure.string :as re]))

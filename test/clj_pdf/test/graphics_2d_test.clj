@@ -1,4 +1,4 @@
-(ns clj-pdf.test.graphics-2d
+(ns clj-pdf.test.graphics-2d-test
   (:use clj-pdf.core clj-pdf.graphics-2d clojure.test clojure.java.io)
   (:require [clojure.string :as re])
   (:import [java.awt Font Graphics2D]

@@ -1,4 +1,4 @@
-(ns clj-pdf.test.utils
+(ns clj-pdf.test.utils-test
   (:require [clojure.test :refer :all]
             [clj-pdf.utils :refer :all]))
 
